@@ -7,6 +7,10 @@
  * @since Jervin Portfolio 1.0
  */
 
+	/**
+	* Custom 
+	*/
+
 	function addMyStyleScripts()
 	{
 		/*CSS*/

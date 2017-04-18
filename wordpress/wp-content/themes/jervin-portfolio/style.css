@@ -10,7 +10,10 @@ Description: Created by - Jervin Enriquez.
 .fs-16{font-size: 16px !important;}
 .fs-18{font-size: 18px !important;}
 .fs-20{font-size: 20px !important;}
-.fs-27{font-size: 27px !important;}
+.fs-22{font-size: 22px !important;}
+.fs-24{font-size: 24px !important;}
+.fs-26{font-size: 26px !important;}
+.fs-28{font-size: 28px !important;}
 .fs-30{font-size: 30px !important;}
 .fs-40{font-size: 40px !important;}
 .fs-50{font-size: 50px !important;}
@@ -34,6 +37,7 @@ Description: Created by - Jervin Enriquez.
 .fw-b{font-weight: bold !important;}
 
 .ta-c{text-align: center !important;}
+.fc-w{color: #FFF !important;}
 
 
 /*==========================MARGINS==========================*/
@@ -202,6 +206,9 @@ Description: Created by - Jervin Enriquez.
 	margin-bottom: -10%;
 }
 
+.slider-text-4{
+	display: none;
+}
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
@@ -209,30 +216,35 @@ Description: Created by - Jervin Enriquez.
 
 
 
-
     /*==========  Mobile First Method  ==========*/
 
     /* Custom, iPhone Retina */ 
-    @media only screen and (max-width : 320px) {
-		
+    @media only screen and (min-width : 320px) {
+
     }
 
     /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 480px) {
+    @media only screen and (min-width : 480px) {
+		.slider-text-4{
+			display: block;
+		}
 
+		.slider-port-img-cont{
+			margin-bottom: -8%;
+		}
     }
 
     /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
+    @media only screen and (min-width : 768px) {
 
     }
 
     /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
+    @media only screen and (min-width : 992px) {
 
     }
 
     /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
+    @media only screen and (min-width : 1200px) {
 
     }
