@@ -172,6 +172,14 @@ Description: Created by - Jervin Enriquez.
 .pr-100{padding-right:100px !important;}
 
 
+/*========================== Header ==========================*/
+
+
+.navbar{
+	border-radius: 0px !important;
+}
+
+
 /*========================== Slider ==========================*/
 .slider-cont{
 	background: rgba(78,147,215,1);
@@ -230,6 +238,11 @@ Description: Created by - Jervin Enriquez.
 	display: none;
 }
 
+.slider-text-2{
+	font-size: 20px;
+}
+
+
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
@@ -282,6 +295,17 @@ Description: Created by - Jervin Enriquez.
 		.slider-text-2{
 			font-size: 60px;
 		}
+
+		.slider-text-4{
+			font-size: 26px;
+		}
+
+		header{
+			position: fixed;
+			z-index: 2;
+			width: 100%;
+		}
+
     }
 
     /* Medium Devices, Desktops */
@@ -289,6 +313,10 @@ Description: Created by - Jervin Enriquez.
 
     	.slider-text-2{
 			font-size: 80px;
+		}
+
+		.slider-text-4{
+			font-size: 36px;
 		}
     }
 
