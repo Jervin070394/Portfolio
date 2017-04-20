@@ -203,17 +203,37 @@ Description: Created by - Jervin Enriquez.
 }
 
 .slider-port-img-cont{
-	margin-bottom: -10%;
+	margin-bottom: -13%;
 }
 
 .slider-text-4{
 	display: none;
 }
 
+.slider-profile-cont{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.slider-text-cont{
+	padding-top: 70px;
+	padding-bottom: 50px;
+	color: #FFF;
+}
+
+.slider-scroll > p{
+	display: block;
+}
+
+.slider-scroll > img{
+	width: 30px;
+	display: none;
+}
+
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
-
 
 
     /*==========  Mobile First Method  ==========*/
@@ -230,18 +250,46 @@ Description: Created by - Jervin Enriquez.
 		}
 
 		.slider-port-img-cont{
-			margin-bottom: -8%;
+			margin-bottom: -14%;
+		}
+		.slider-text-cont{
+			padding-top: 100px;
+			padding-bottom: 50px;
+			color: #FFF;
+		}
+
+		.slider-profile-cont{
+			margin-bottom: 100px;
+			margin-top: 100px;
 		}
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
+    	.slider-port-img-cont{
+			margin-bottom: -7%;
+		}
 
+		.slider-scroll > img{
+			display: inline;
+		}
+
+		.slider-text-1{
+			font-size: 30px;
+			font-weight: 900;
+		}
+
+		.slider-text-2{
+			font-size: 60px;
+		}
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
 
+    	.slider-text-2{
+			font-size: 80px;
+		}
     }
 
     /* Large Devices, Wide Screens */

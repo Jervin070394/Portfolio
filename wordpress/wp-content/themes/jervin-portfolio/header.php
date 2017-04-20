@@ -36,10 +36,10 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="<?= get_home_url(); ?>">Home</a></li>
-					<li><a href="#about-cont">About Me</a></li>
-					<li><a href="#portfolio-cont">Portfolio</a></li>
-					<li><a href="#exp-cont">Experiences</a></li>
-					<li><a href="#contact-cont">Contact Me</a></li>
+					<li><a href="#about-cont-id">About Me</a></li>
+					<li><a href="#portfolio-cont-id">Portfolio</a></li>
+					<li><a href="#exp-cont-id">Experiences</a></li>
+					<li><a href="#contact-cont-id">Contact Me</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container -->
