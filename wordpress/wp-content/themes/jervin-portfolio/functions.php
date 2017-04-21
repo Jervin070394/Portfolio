@@ -18,6 +18,8 @@
 
 			wp_enqueue_style('bootstrap-css', get_template_directory_uri().'/css/bootstrap.min.css', array(), '3.3.7', 'all');
 
+			wp_enqueue_style('font-lato-css', 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i', array(), '3.3.7', 'all');
+
 
 		/*JS*/
 		wp_enqueue_script('bootstrap-jQuery', get_template_directory_uri().'/js/jquery-1.14.min.js', array(), '1.14.2', true);
