@@ -110,15 +110,85 @@ get_header(); ?>
 	</div>
 </div>
 
-<div id="ex-cont-id" class="exp-cont">
-	<div class="container">
+<div id="exp-cont-id" class="exp-cont parallax-window" data-parallax="scroll" data-image-src="<?php bloginfo('template_url'); ?>/img/bg-1.jpg">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 ta-c exp-title">
-				<h2 class="fw-900 mt-0 mb-0">Educational Background and Work Experience</h2>
+				<h3 class="fw-900 mt-0 mb-0">Work Experience</h3>
 				<img src="<?php bloginfo('template_url'); ?>/img/border-w.jpg">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 ta-c">
+				<div class="exp-box-cont">
+					<img src="<?php bloginfo('template_url'); ?>/img/eg-1.png">
+					<div class="exp-cont-head">
+						<h3>Web Designer/Developer (UX/UI Developer)</h3>
+						<p>Energy Gold Corp., PH</p>
+						<p>Berthaphil, Clark Freeport Zone, Pampanga</p>
+						<p>April 2016 - Present</p>
+					</div>
+					<div class="exp-cont-text">
+						<p>Create wireframes, user flows, process flows and site maps to communicate interaction and design ideas</p>
+						<p>Responsible for designing and developing  responsive websites needed by the company</p>
+						<p>Developing skills and expertise in appropriate software/programming languages, including HTML, Javascript and others</p>
+						<p>Establish and promote design guidelines, best practices and standards.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 ta-c">
+				<div class="exp-box-cont">
+					<img src="<?php bloginfo('template_url'); ?>/img/dmo-1.png">
+					<div class="exp-cont-head">
+						<h3>Junior Web Designer</h3>
+						<p>Digitized Marketing Optimization, Inc.</p>
+						<p>Balibago, Pampanga</p>
+						<p>May 2014 - January 2016</p>
+					</div>
+					<div class="exp-cont-text">
+						<p>Create wireframes, user flows, process flows and site maps to communicate interaction and design ideas</p>
+						<p>Responsible for designing and developing  responsive websites needed by the company</p>
+						<p>Developing skills and expertise in appropriate software/programming languages, including HTML, Javascript and others</p>
+						<p>Establish and promote design guidelines, best practices and standards.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<div class="contact-cont" id="contact-cont-id">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="contact-title">
+							<h3 class="fw-900 mt-0 mb-0">Work Experience</h3>
+							<img src="<?php bloginfo('template_url'); ?>/img/border-w.jpg">
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="contact-form">
+									<form>
+										<input type="text" name="name">
+										<input type="text" name="email">
+										<input type="text" name="number">
+									</form>
+								</div>
+							</div>
+							<div class="col-md-6">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 <?php get_footer(); ?>

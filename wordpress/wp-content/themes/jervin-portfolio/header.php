@@ -38,7 +38,7 @@
 					<li><a href="<?= get_home_url(); ?>">Home</a></li>
 					<li><a href="#about-cont-id">About Me</a></li>
 					<li><a href="#portfolio-cont-id">Portfolio</a></li>
-					<li><a href="#exp-cont-id">Experiences</a></li>
+					<li><a href="#exp-cont-id">Experience</a></li>
 					<li><a href="#contact-cont-id">Contact Me</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->

@@ -25,6 +25,8 @@
 		wp_enqueue_script('bootstrap-jQuery', get_template_directory_uri().'/js/jquery-1.14.min.js', array(), '1.14.2', true);
 
 		wp_enqueue_script('bootstrap-js', get_template_directory_uri().'/js/bootstrap.min.js', array(), '3.3.7', true);
+
+		wp_enqueue_script('parallax-js', get_template_directory_uri().'/js/parallax.min.js', array(), '3.3.7', true);
 	}
 
 	add_action('wp_enqueue_scripts', 'addMyStyleScripts');
