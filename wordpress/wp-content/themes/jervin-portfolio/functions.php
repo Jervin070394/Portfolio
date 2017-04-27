@@ -36,6 +36,8 @@
 	*/
 	add_theme_support( 'menus' );
 
+	add_theme_support( 'post-thumbnails' );
+
 	/**
 	*This feature allows the use of HTML5 markup for the search forms, comment forms, comment lists, gallery, and caption.
 	*/

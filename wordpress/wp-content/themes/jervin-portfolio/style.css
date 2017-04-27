@@ -299,10 +299,14 @@ body, h1,h2,h3,h4,h5,h6{
 .about-box > img{
     position: absolute;
     max-width: 100%;
-    left: 41%;
+    left: 40%;
     top: -33px;
 }
 
+.about-box{
+	padding: 30px;
+	margin-top: 60px;
+}
 
 /*========================== Portfolio ==========================*/
 
@@ -345,6 +349,14 @@ body, h1,h2,h3,h4,h5,h6{
 	color: #FFF;
 }
 
+
+/*========================== Contact ==========================*/
+
+.contact-cont{
+	background: url('../jervin-portfolio/img/contact-bg.jpg');
+}
+
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
@@ -354,7 +366,9 @@ body, h1,h2,h3,h4,h5,h6{
 
     /* Custom, iPhone Retina */ 
     @media only screen and (min-width : 320px) {
-
+    	.about-box > img{
+    		left: 41%;
+    	}
     }
 
     /* Extra Small Devices, Phones */ 
@@ -384,6 +398,10 @@ body, h1,h2,h3,h4,h5,h6{
 		.about-cont{
 			padding: 100px 0;
 		}
+
+    	.about-box > img{
+			left: 45%;
+    	}
     }
 
     /* Small Devices, Tablets */
@@ -430,6 +448,11 @@ body, h1,h2,h3,h4,h5,h6{
 		.slider-text-4{
 			font-size: 36px;
 		}
+
+		.about-box > img{
+			left: 42%;
+			top: 30px;
+    	}
     }
 
     /* Large Devices, Wide Screens */

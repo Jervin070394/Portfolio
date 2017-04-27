@@ -159,12 +159,12 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="contact-cont" id="contact-cont-id">
+<div id="contact-cont-id" class="contact-cont">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12">	
 						<div class="contact-title">
 							<h3 class="fw-900 mt-0 mb-0">Work Experience</h3>
 							<img src="<?php bloginfo('template_url'); ?>/img/border-w.jpg">
@@ -180,7 +180,12 @@ get_header(); ?>
 								</div>
 							</div>
 							<div class="col-md-6">
-								
+								<div class="contact-details">
+									Name:
+									Address:
+									Email:
+									Whatevs:
+								</div>
 							</div>
 						</div>
 					</div>
